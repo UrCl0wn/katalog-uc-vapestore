@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UC Vapestore - Katalog Produk</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css"> </head>
+
+<body>
+
+  <div id="age-confirm" style="position:fixed;top:0;left:0;right:0;bottom:0;background:#000;z-index:9999;display:flex;align-items:center;justify-content:center;flex-direction:column;color:white;">
+  <img src="image/20240525_110751.png" alt="UC Vapestore" style="width:200px;margin-bottom:20px;">
+  <h2>Apakah kamu berusia 21 tahun ke atas?</h2>
+  <p>Website ini hanya untuk pengunjung dewasa (21+)</p>
+  <div style="margin-top: 20px;">
+    <button onclick="lanjut()" style="padding:10px 20px;margin-right:10px;background-color:green;color:white;border:none;border-radius:5px;">Ya, saya 21+</button>
+    <button onclick="keluar()" style="padding:10px 20px;background-color:red;color:white;border:none;border-radius:5px;">Tidak</button>
+  </div>
+</div>
+
+
+  <header>
+  <img src="image/20240525_110751.png" alt="Logo UC Vapestore">
+  <div class="header-text">
+    <h1>UC Vapestore - Katalog Produk</h1>
+    <p>Temukan produk vape terbaik di toko kami!</p>
+  </div>
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Cari produk...">
+  </div>
+</header>
+
+<div id="popular-categories" style="background:#1a1a1a; color:#ffffff; padding:30px 20px; margin-bottom: 30px;">
+  <h2 style="font-size:24px; font-weight:700; margin-bottom:20px;">Popular Categories</h2>
+  <div style="display:flex; flex-wrap:wrap; gap:20px;">
+    </div>
+</div>
+
+  <div id="product-list">
+    </div>
+
+  <button id="scrollToTopBtn" title="Kembali ke atas">↑</button>
+
+<a href="https://wa.me/6281999767483?text=Halo%20UC%20Vapestore%2C%20saya%20tertarik%20dengan%20produk%20yang%20Anda%20tawarkan." class="whatsapp-float" target="_blank">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+</a>
+
+  <div class="shipping-payment-info">
+  <div class="info-section">
+    <h3><i class="fas fa-store"></i> Pick up from the UC Vapestore</h3>
+  </div>
+  <div class="info-section">
+    <h3><i class="fas fa-truck"></i> Courier Delivery</h3>
+    <img src="image/J&T_Express.jpg" alt="J&T">
+    <img src="image/JNE_Express.jpg" alt="JNE">
+    <img src="image/Anter_aja.jpg" alt="Anteraja">
+  </div>
+  <div class="info-section">
+    <h3><i class="fas fa-credit-card"></i> Payment</h3>
+    <img src="image/Visa.jpg" alt="Visa">
+    <img src="image/Master_Card.jpg" alt="MasterCard">
+    <img src="image/Ovo.jpg" alt="OVO">
+    <img src="image/Dana.jpg" alt="DANA">
+    <img src="image/Link_Aja.jpg" alt="LinkAja">
+    <img src="image/Qris.jpg" alt="QRIS">
+    <img src="image/Bank_Bca.jpg" alt="BCA">
+    <img src="image/Bank_Mandiri.jpg" alt="Mandiri">
+    <img src="image/Bank_Bri.jpg" alt="BRI">
+    <img src="image/Cimb_Bank.jpg" alt="CIMB">
+  </div>
+  <footer>
+    © 2025 UC Vapestore
+  </footer>
+</div>
+
+  <script src="script.js"></script> </body>
+</html>
